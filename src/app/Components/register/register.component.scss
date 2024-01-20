@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.container{
+    height: 85%;
+    width: 50%;
+    margin-top: 2%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.paragraph{
+    color: #b0b0b0;
+}
+
+.form{
+    width: 60%;
+    height: 85%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginButton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding-top: 20px;
+}
